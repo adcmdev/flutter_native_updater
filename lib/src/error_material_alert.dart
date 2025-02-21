@@ -20,7 +20,8 @@ class ErrorMaterialAlert extends StatelessWidget {
     );
 
     Widget closeButton = TextButton(
-      child: Text(errorCloseButtonLabel ?? 'CLOSE', style: TextStyle(color: Colors.white)),
+      child: Text(errorCloseButtonLabel ?? 'CLOSE',
+          style: TextStyle(color: Colors.white)),
       onPressed: () => Navigator.pop(context),
       style: flatButtonStyle,
     );
